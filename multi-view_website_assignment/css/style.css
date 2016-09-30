@@ -1,0 +1,17 @@
+body{
+    color:black;
+}
+.header{
+    font-family: 'ABeeZee';
+    font-size: 60px;
+}
+.profile{
+ margin: 50px 0px 40px 0px;
+}
+.profilePhoto{
+    width:100%;
+}
+.subHeader{
+font-family: 'ABeeZee';
+color: black;
+}
