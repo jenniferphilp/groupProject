@@ -1,45 +1,65 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> cb77bc2becdb736ef803c65b7356cf4988a5baea
 body{
     color:black;
 }
-
-.row {
+.animate {
   -webkit-animation: fadein 3s;
 }
-
 @keyframes fadein {
     from{opacity: 0;}
     to{opacity: 1;}
 }
-
-
 @-webkit-keyframes fadein{
     from{opacity:0;}
     to{opacity:1;}
 }
-
-
-.header .profile-page-name {
+.header, .profile-page-name {
     font-family: 'ABeeZee';
     font-size: 60px;
 }
-
 .profile {
  margin: 50px 0px 40px 0px;
 }
-.profilePhoto {
+.homePhoto{
     width:100%;
+    border-radius: 5px;
+    height: auto;
+}
+.profilePhoto {
+    width:80%;
     border-radius: 5px;
 }
 .subHeader {
 font-family: 'ABeeZee';
 color: black;
 }
-
-.row {
-    margin-top: 80px;
+.profile-details{
+    margin-top: 50px;
+    border: 0.5px solid black;
+    padding:10px;
+    border-radius: 5px; 
 }
-
-.student-details .profile-info {
+.profile-categories{
     float: left;
-    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.details-font{
+ font-size:20px;
+ line-height: 35px;
+}
+ul{
+    list-style-type: none;
+}
+.student-details
+{
+    margin-top:25px;
+}
+.page{
+    position: absolute;
+    right: 150px;
+    bottom: 200px;
 }
