@@ -1,17 +1,27 @@
-body{
+body {
     color:black;
 }
-.header{
+.header .profile-page-name {
     font-family: 'ABeeZee';
     font-size: 60px;
 }
-.profile{
+.profile {
  margin: 50px 0px 40px 0px;
 }
-.profilePhoto{
+.profilePhoto {
     width:100%;
+    border-radius: 5px;
 }
-.subHeader{
+.subHeader {
 font-family: 'ABeeZee';
 color: black;
+}
+
+.row {
+    margin-top: 80px;
+}
+
+.student-details .profile-info {
+    float: left;
+    display: inline-block;
 }
