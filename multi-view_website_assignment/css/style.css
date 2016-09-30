@@ -1,7 +1,7 @@
 body {
     color:black;
 }
-.header .profile-page-name {
+.header, .profile-page-name {
     font-family: 'ABeeZee';
     font-size: 60px;
 }
